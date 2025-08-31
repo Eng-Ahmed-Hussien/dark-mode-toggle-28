@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Owl - Dark Mode Toggle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/Css/style.css">
+</head>
+<body>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode"></button>
+    
+    <div class="theme-indicator" id="themeIndicator">
+        Light Mode
+    </div>
+
+    <div class="container fade-in">
+        <h1>Night Owl App</h1>
+        
+        <div class="content-section">
+            <h2>Welcome to Night Owl</h2>
+            <p>Experience our beautifully crafted dark mode toggle feature. Switch between light and dark themes with the toggle button in the top-right corner. Your preference will be saved and remembered for future visits.</p>
+            
+            <div class="demo-text">
+                <strong>Theme Features:</strong> Smooth transitions, persistent storage, and accessibility-friendly design.
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Why Dark Mode?</h2>
+            <p>Dark mode reduces eye strain in low-light conditions, saves battery life on OLED displays, and provides a sleek, modern appearance that many users prefer, especially during evening hours.</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Smooth Transitions</h3>
+                <p>All color changes are animated with CSS transitions for a polished, professional feel that enhances user experience.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Persistent Storage</h3>
+                <p>Your theme preference is automatically saved and restored when you return to the app, providing a consistent experience.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Responsive Design</h3>
+                <p>The toggle works perfectly across all device sizes, from desktop computers to mobile phones and tablets.</p>
+            </div>
+            
+            <div class="feature-card">
+                <h3>Accessibility First</h3>
+                <p>Built with proper ARIA labels and keyboard navigation support for users with assistive technologies.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <h2>Technical Implementation</h2>
+            <p>This dark mode feature uses CSS custom properties (variables) for efficient theme switching, JavaScript event listeners for user interaction, and localStorage for preference persistence. The design follows modern web standards and best practices.</p>
+            
+            <div class="demo-text">
+                <strong>Typography:</strong> Headings use Roboto Bold at 24px, while body text uses Arial at 16px for optimal readability in both themes.
+            </div>
+        </div>
+    </div>
+
+   <script src="./assets/Js/script.js"></script>
+</body>
+</html>
